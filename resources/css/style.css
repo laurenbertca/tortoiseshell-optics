@@ -1,3 +1,51 @@
-* {
-	font-style: Helvetica;
+body {
+	font-size: 18px;
+	line-height: 1.4rem;
+	font-family: Helvetica;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.nav {
+	display: flex;
+	background-color: cadetblue;
+	color: white;
+	font-size: 1rem;
+	align-items: center;
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.logo-lockup {
+	display: inline-flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding-left: 2rem;
+	align-items: center;
+
+}
+
+.logo img {
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	height: 1.5rem;
+	width: auto;
+
+}
+
+.nav-links {
+	display: inline-flex;
+	justify-content: flex-end;
+}
+
+.nav-item {
+	display: inline-flex;
+	padding: 1rem 2rem;
 }
