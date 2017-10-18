@@ -160,3 +160,34 @@ body {
 	height: 1.5rem;
 	margin-right: 1rem;
 }
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.header {
+		height: 22rem;
+	}
+
+	.motto-text {
+		margin-top: 5rem;
+		margin-right: 2rem;
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+
+	.nav {
+		margin-top: 0rem;
+	}
+
+}
+
+@media only screen and (max-width: 470px) {
+
+}
+
