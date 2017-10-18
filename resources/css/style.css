@@ -142,14 +142,14 @@ body {
 }
 
 .footer {
-	display: flex;
+	display: inline-flex;
 	width: 100%;
 	background-color: azure;
 	justify-content: center;
 }
 
 .footer-text {
-	display: flex;
+	display: inline-flex;
 	height: 1.5rem;
 	justify-content: flex-start;
 	width: 100%;
