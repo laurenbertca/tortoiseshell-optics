@@ -79,8 +79,35 @@ body {
 
 .services {
 	display: flex;
-	height: 8rem;
 	margin-top: 3rem;
+	justify-content: center;
+}
+
+.specific-service {
+	display: inline-flex;
+	flex-direction: column;
+	margin-right: 6rem;
+	max-width: 5rem;
+	min-width: 3.5rem;
+	height: 8rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.specific-service h3 {
+	text-align: center;
+}
+
+#paper img {
+	max-width: 3.5rem;
+}
+
+#ruler img {
+	max-width: 5rem;
+}
+
+#truck img {
+	max-width: 5rem;
 }
 
 .blurbs {
