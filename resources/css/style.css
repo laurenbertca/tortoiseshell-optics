@@ -77,6 +77,12 @@ body {
 	margin-right: -2rem;
 }
 
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .services {
 	display: flex;
 	margin-top: 3rem;
@@ -111,13 +117,17 @@ body {
 }
 
 .blurbs {
-	display: inline-flex;
+	display: flex;
 	margin-top: 3rem;
 	margin-bottom: 5rem;
-	width: 75%;
-	justify-content: center;
 }
 
+.blurb-item {
+	display: inline-flex;
+	flex-direction: column;
+	padding-left: 5%;
+	width: 35%;
+}
 
 .blurbs h2 {
 	font-size: 1rem;
@@ -128,14 +138,13 @@ body {
 }
 
 .blurbs h3{ 
-	width: 35%;
+	padding-top: 1rem;
 }
 
 .footer {
-	display: inline-flex;
-	background-color: azure;
-	padding: 4rem;
+	display: flex;
 	width: 100%;
+	background-color: azure;
 	justify-content: center;
 }
 
@@ -144,6 +153,7 @@ body {
 	height: 1.5rem;
 	justify-content: flex-start;
 	width: 100%;
+	padding: 4rem;
 }
 
 .footer-text img {
