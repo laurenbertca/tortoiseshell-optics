@@ -134,7 +134,8 @@ body {
 	background-color: cadetblue;
 	color: white;
 	padding: .5rem 1.25rem;
-	width: 10rem
+	width: 10rem;
+	text-transform: uppercase;
 }
 
 .blurbs h3{ 
@@ -162,6 +163,9 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
+	#small {
+		display: none;
+	}
 
 }
 
@@ -185,9 +189,102 @@ body {
 		margin-top: 0rem;
 	}
 
+	#small {
+		display: none;
+	}
+
 }
 
+@media only screen and (max-width: 630px) {
+	.full, .site-name {
+		display: none;
+	}
+
+	
+    #small {
+    	display: flex;
+    }
+
+
 @media only screen and (max-width: 470px) {
+
+	.container, .body {
+		min-width: 100%;
+	}
+
+	.header {
+		height: 17rem;
+	}
+
+	.site-motto {
+		min-width: 470px;
+		width: 100%;
+	}
+
+	.motto-text {
+		margin-top: 9rem;
+		width: 100%;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		font-size: 1rem;
+		justify-content: center;
+		margin-right: 0rem;
+
+	}
+
+	.services {
+		flex-direction: column;
+		margin-top: 3.77rem;
+		margin-bottom: 3.77rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.specific-services {
+
+	}
+
+	.specific-service img {
+		margin-top: 1.54rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.specific-service h3 {
+		font-size: 0.77rem;
+		margin-bottom: 1rem;
+	}
+
+	.blurbs {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.blurb-item {
+		padding-left: 0rem;
+		width: 100%;
+	}
+
+	.blurbs h2 {
+		width: 100%;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.blurbs h3 {
+		padding-top: 1rem;
+		padding-bottom: 4rem;
+		font-size: 0.77rem;
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+    
+    .footer-text h3 {
+    	display: none;
+    }
+
+    .footer-text {
+    	justify-content: center;
+    }
 
 }
 
