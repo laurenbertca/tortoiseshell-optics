@@ -208,8 +208,8 @@ body {
 
 @media only screen and (max-width: 470px) {
 
-	.container, .body {
-		min-width: 100%;
+	.container, .body, .header {
+		min-width: 330px;
 	}
 
 	.header {
@@ -217,7 +217,7 @@ body {
 	}
 
 	.site-motto {
-		min-width: 470px;
+		
 		width: 100%;
 	}
 
