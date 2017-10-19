@@ -205,6 +205,32 @@ body {
     	display: flex;
     }
 
+    .blurbs {
+    	padding-right: 5%;
+    }
+
+	.blurb-item {
+		display: inline-flex;
+		flex-direction: column;
+		padding-left: 10%;
+		width: 35%;
+	}
+
+	.services {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+.specific-service {
+		margin-right: rem;
+	}
+
+#truck {
+		margin-right: 0rem;
+	}
+
+}
+
 
 @media only screen and (max-width: 470px) {
 
