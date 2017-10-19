@@ -240,8 +240,9 @@ body {
 		align-items: center;
 	}
 
-	.specific-services {
-
+	.specific-service {
+		margin-right: 0rem;
+		height: auto;
 	}
 
 	.specific-service img {
@@ -268,6 +269,7 @@ body {
 		width: 100%;
 		text-align: center;
 		text-transform: uppercase;
+		padding: 0.5rem 0rem;
 	}
 
 	.blurbs h3 {
